@@ -12,7 +12,7 @@
 
 O SkillBridge ajuda universitários que buscam seu primeiro estágio ou emprego em tecnologia a escolher o que estudar. A V3 usa uma autoavaliação para orientar o diagnóstico e transforma uma trilha de **12 semanas** em um curso personalizado com prática, áudio e acompanhamento de progresso.
 
-**[Repositório da V3](https://github.com/PedroGiffoni/skillbridgev3)** · **[Saúde da API de testes](https://skillbridge-v3-api-pedrogiffoni.onrender.com/health)** · **[Plano da V3](docs/SKILLBRIDGE_V3_PLANO_MESTRE.md)** · **[Documentação F108/Unifor](docs/09-relatorio-f108.md)**
+**[Abrir ambiente de testes](https://skillbridgev3.vercel.app)** · **[Repositório da V3](https://github.com/PedroGiffoni/skillbridgev3)** · **[Saúde da API de testes](https://skillbridge-v3-api-pedrogiffoni.onrender.com/health)** · **[Plano da V3](docs/SKILLBRIDGE_V3_PLANO_MESTRE.md)** · **[Documentação F108/Unifor](docs/09-relatorio-f108.md)**
 
 ## Sumário
 
@@ -150,7 +150,7 @@ O ambiente de testes usa serviços dedicados ligados à `main` deste repositóri
 | **Render Free** | Serviço web Python com checkout integral do repositório e Python 3.13. Build `cd backend && pip install -r requirements.txt`. Start `cd backend && sh start.sh`. Verificação em `/health`. |
 | **Vercel Hobby** | Preset Vite, raiz `frontend`, build `npm run build` e saída `dist`. O arquivo `frontend/vercel.json` encaminha `/api/*` à API de testes no Render. |
 
-No Render, mantenha `AUTH_COOKIE_SECURE=true` e coloque o domínio HTTPS da Vercel em `CORS_ORIGINS` como lista JSON. A geração exige as variáveis Gemini no backend. Para validar remotamente a área privada, configure `AUTH_OTP_SECRET` e um provedor de entrada. No Google, cadastre a origem HTTPS da interface no cliente OAuth e informe `AUTH_GOOGLE_CLIENT_ID` no Render. [Configuração de login](docs/30-login-historico-perfil.md)
+No Render, mantenha `AUTH_COOKIE_SECURE=true` e `CORS_ORIGINS=["https://skillbridgev3.vercel.app"]`. A geração exige as variáveis Gemini no backend. Para validar remotamente a área privada, configure `AUTH_OTP_SECRET` e um provedor de entrada. No Google, cadastre a origem HTTPS da interface no cliente OAuth e informe `AUTH_GOOGLE_CLIENT_ID` no Render. [Configuração de login](docs/30-login-historico-perfil.md)
 
 Verifique `/health` no Render e `/api/config` pelo domínio da Vercel. A verificação completa inclui diagnóstico, login, reabertura da trilha, geração de lição e reprodução de áudio. O SQLite no Render Free é efêmero, então use dados sintéticos no ambiente publicado e faça a validação com persistência em um banco local dedicado. [Limites do Render Free](https://render.com/docs/free#local-files-lost-on-redeploy) · [Protocolo de piloto](docs/38-v3-ensaio-gratuito-piloto.md#hospedagem-e-decisão-de-piloto)
 
@@ -159,7 +159,7 @@ Verifique `/health` no Render e `/api/config` pelo domínio da Vercel. A verific
 | Item | Situação |
 | --- | --- |
 | V3 local | Fluxo com dados sintéticos validado com texto e voz do Gemini na cota gratuita. |
-| V3 hospedada | API disponível no Render Free. Publicação da interface em preparação. Validação de ponta a ponta depende de credenciais Gemini e Google no backend. |
+| V3 hospedada | Interface na Vercel Hobby e API no Render Free. O proxy, o catálogo e a proteção das rotas privadas foram verificados. Validação de ponta a ponta depende de habilitar Gemini e um provedor de entrada no backend. |
 | Persistência hospedada | SQLite efêmero no Render Free. Contas reais exigem armazenamento durável e restauração de backup verificada. |
 | Piloto F108/Unifor | Pesquisa com participantes e relatório final pendentes. [Protocolo e critérios](docs/07-metricas-validacao.md) · [Relatório](docs/09-relatorio-f108.md) |
 

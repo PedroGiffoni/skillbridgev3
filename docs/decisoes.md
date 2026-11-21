@@ -102,3 +102,9 @@ Todas as competências declaradas em um módulo contam como críticas na prova d
 ## 21/11/2026 — Validação na cota gratuita
 
 O ensaio sintético percorreu questionário, trilha, curso, prova e painel com Gemini real. Os seis materiais e as gravações das três modalidades faladas foram verificados em um tema de SQL. A geração de cursos usa um esquema de resposta simplificado e conserva a validação completa da V3. O Render Free não oferece disco persistente para o SQLite da plataforma. [Resultados e roteiro do piloto](38-v3-ensaio-gratuito-piloto.md).
+
+## 21/11/2026 — Publicação de testes da V3
+
+A V3 usa a `main` de um repositório dedicado que incorpora o histórico original. A interface na Vercel Hobby encaminha `/api/*` na mesma origem para um serviço Python separado no Render Free. A configuração permite a origem HTTPS estável da Vercel e mantém cookies seguros.
+
+Verifiquei a interface, `/health`, a versão OpenAPI 0.3.0, o catálogo pelo proxy e o retorno HTTP 401 de cursos sem sessão. A geração e o login hospedados dependem de credenciais no Render. O banco é efêmero e o ambiente serve para testes com dados sintéticos. [Interface de testes](https://skillbridgev3.vercel.app) · [Saúde da API](https://skillbridge-v3-api-pedrogiffoni.onrender.com/health)
