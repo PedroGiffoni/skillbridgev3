@@ -6,7 +6,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://skillbridge-api-pedrogiffoni.onrender.com/api/:path*"
+      "destination": "https://skillbridge-v3-api-pedrogiffoni.onrender.com/api/:path*"
     }
   ],
   "headers": [

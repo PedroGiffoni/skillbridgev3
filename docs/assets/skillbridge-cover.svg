@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
   <title id="title">SkillBridge — seu próximo passo profissional</title>
-  <desc id="desc">Ilustração editorial do projeto com quatro etapas: profissão, autoavaliação, diagnóstico e trilha. Não é uma captura da aplicação.</desc>
+  <desc id="desc">Ilustração editorial do projeto com profissão, autoavaliação, diagnóstico e trilha de 12 semanas.</desc>
   <defs><linearGradient id="bg"><stop stop-color="#10234c"/><stop offset="1" stop-color="#45248b"/></linearGradient></defs>
   <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
   <g fill="#fff" font-family="Arial, sans-serif">
@@ -9,6 +9,6 @@
     <text x="64" y="194" font-size="25">Seu próximo passo profissional começa com autoconhecimento.</text>
     <path d="M90 262H1080" stroke="#bba7ff" stroke-width="3"/>
     <g fill="#d7ceff"><circle cx="90" cy="262" r="10"/><circle cx="415" cy="262" r="10"/><circle cx="745" cy="262" r="10"/><circle cx="1080" cy="262" r="10"/></g>
-    <g font-size="18"><text x="64" y="310">Profissão</text><text x="345" y="310">Autoavaliação</text><text x="690" y="310">Diagnóstico</text><text x="1015" y="310">4 semanas</text></g>
+    <g font-size="18"><text x="64" y="310">Profissão</text><text x="345" y="310">Autoavaliação</text><text x="690" y="310">Diagnóstico</text><text x="1015" y="310">12 semanas</text></g>
   </g>
 </svg>
