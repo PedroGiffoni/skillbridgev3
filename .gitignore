@@ -1,0 +1,19 @@
+# Segredos e ambiente
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+.pytest_cache/
+node_modules/
+dist/
+*.db
+*.sqlite3
+coverage/
+
+.npm-cache/
+*.tsbuildinfo
+backend/data/
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm

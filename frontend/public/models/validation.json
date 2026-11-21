@@ -1,0 +1,34 @@
+[
+  {
+    "file": "profissional-blazer.glb",
+    "bytes": 858008,
+    "errors": 0,
+    "warnings": 0,
+    "infos": 46,
+    "animatedJointVerified": true,
+    "smoothStartAndReturnVerified": true,
+    "maxFrameAngleDegrees": 2.8838283164752005,
+    "clips": [
+      "Acenar",
+      "Respirar",
+      "Celebrar",
+      "Caminhar"
+    ]
+  },
+  {
+    "file": "profissional-camisa.glb",
+    "bytes": 884580,
+    "errors": 0,
+    "warnings": 0,
+    "infos": 37,
+    "animatedJointVerified": true,
+    "smoothStartAndReturnVerified": true,
+    "maxFrameAngleDegrees": 2.8838283164752005,
+    "clips": [
+      "Acenar",
+      "Respirar",
+      "Celebrar",
+      "Caminhar"
+    ]
+  }
+]

@@ -1,0 +1,60 @@
+.theme-materials {
+  border-top: 1px solid var(--border);
+  margin-top: 1rem;
+  padding-top: .75rem;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.theme-materials h4, .theme-materials h5, .theme-materials h6 { margin: 0 0 .5rem; font-weight: 700; }
+.theme-materials :where(h5, legend)[tabindex]:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.theme-materials button, .theme-materials summary { min-height: 44px; }
+.theme-format-nav {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 8rem), 1fr));
+  gap: .5rem;
+  margin-block: .75rem;
+}
+.theme-format-nav button { line-height: 1.25; text-align: left; }
+.theme-format-nav button[aria-pressed="true"] { background: var(--soft); border-color: var(--accent); }
+.theme-panel { min-width: 0; }
+.theme-generate { margin-block: .75rem; }
+.theme-generate .checkbox { margin-block: .5rem; }
+.theme-slide {
+  border: 1px solid var(--border);
+  border-radius: .875rem;
+  overflow: hidden;
+  margin: .75rem 0;
+}
+.theme-slide-content { background: var(--soft); padding: 1.125rem; }
+.theme-slide figcaption { padding: .75rem 1.125rem; }
+.theme-slide figcaption strong { display: block; }
+.theme-bullets { padding-inline-start: 1.35rem; margin-block: .375rem; }
+ul.theme-bullets { list-style: disc; }
+ol.theme-bullets { list-style: decimal; }
+.theme-audio { display: block; width: 100%; max-width: 100%; margin-block: .75rem; }
+.theme-segments { align-items: center; margin-block: .75rem; }
+.theme-segments p { margin: 0; }
+.theme-map-topic {
+  border: 1px solid var(--accent);
+  background: var(--soft);
+  border-radius: .75rem;
+  padding: .75rem 1rem;
+}
+.theme-map { display: grid; gap: .5rem; margin: .75rem 0; padding: 0 0 0 .75rem; list-style: none; }
+.theme-map > li { position: relative; padding-inline-start: .75rem; border-inline-start: 2px solid var(--border); }
+.theme-map details, .theme-transcript { border: 1px solid var(--border); border-radius: .65rem; padding: 0 .75rem; }
+.theme-map details[open], .theme-transcript[open] { padding-bottom: .5rem; }
+.theme-materials summary { padding-block: .625rem; font-weight: 650; cursor: pointer; }
+.theme-transcript { margin-block: .75rem; }
+.theme-transcript ol { list-style: none; padding: 0; margin: 0; }
+.theme-transcript li { padding-block: .5rem; }
+.theme-transcript li + li { border-top: 1px solid var(--border); }
+.theme-transcript p { margin: .25rem 0 0; }
+.theme-assessment fieldset + fieldset { margin-top: 1rem; }
+
+.library-materials { margin-block: .75rem 1rem; }
+.library-materials > button { min-height: 44px; }
+
+.theme-diagram { display: flex; flex-wrap: wrap; gap: .375rem .5rem; padding: 0; list-style: none; margin: .875rem 0 .125rem; }
+.theme-diagram li { display: flex; align-items: center; gap: .375rem; min-width: 0; max-width: 100%; }
+.theme-diagram li > span:last-child { background: var(--surface); border: 1px solid var(--border); border-radius: .5rem; padding: .25rem .5rem; }

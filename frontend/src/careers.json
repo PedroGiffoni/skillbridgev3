@@ -1,0 +1,509 @@
+{
+  "version": 1,
+  "groups": [
+    {
+      "id": "desenvolvimento-de-software",
+      "label": "Desenvolvimento de software",
+      "careers": [
+        {
+          "id": "desenvolvimento-front-end",
+          "label": "Desenvolvimento Front-end",
+          "description": "Cria interfaces web responsivas e acessíveis que funcionam no navegador.",
+          "aliases": ["frontend", "front end", "desenvolvedor frontend", "desenvolvedora front-end", "front-end developer"]
+        },
+        {
+          "id": "desenvolvimento-back-end",
+          "label": "Desenvolvimento Back-end",
+          "description": "Implementa regras de negócio, serviços e acesso a dados por trás de um sistema.",
+          "aliases": ["backend", "back end", "desenvolvedor backend", "desenvolvedora back-end", "back-end developer"]
+        },
+        {
+          "id": "desenvolvimento-full-stack",
+          "label": "Desenvolvimento Full Stack",
+          "description": "Trabalha na interface e nos serviços que sustentam uma aplicação.",
+          "aliases": ["fullstack", "full-stack", "desenvolvedor full stack", "desenvolvedora full stack", "full stack developer"]
+        },
+        {
+          "id": "desenvolvimento-mobile",
+          "label": "Desenvolvimento Mobile",
+          "description": "Desenvolve aplicativos para celulares e tablets e testa seu funcionamento em diferentes dispositivos.",
+          "aliases": ["mobile developer", "desenvolvedor mobile", "desenvolvedora mobile", "android", "ios", "aplicativos móveis"]
+        },
+        {
+          "id": "analise-de-sistemas",
+          "label": "Análise de Sistemas",
+          "description": "Estuda como um sistema atende às necessidades de quem o usa e especifica melhorias.",
+          "aliases": ["analista de sistemas", "systems analyst", "análise e desenvolvimento de sistemas", "ADS"]
+        },
+        {
+          "id": "desenvolvimento-de-integracoes-e-apis",
+          "label": "Desenvolvimento de Integrações e APIs",
+          "description": "Conecta sistemas por meio de APIs e garante que os dados trafeguem no formato esperado.",
+          "aliases": ["engenharia de integração", "API developer", "integration developer", "integração de sistemas", "APIs"]
+        },
+        {
+          "id": "arquitetura-de-software",
+          "label": "Arquitetura de Software",
+          "description": "Define a estrutura de um sistema e orienta escolhas sobre seus componentes e integrações.",
+          "aliases": ["software architect", "arquiteto de software", "arquiteta de software", "design de sistemas", "system design"]
+        }
+      ]
+    },
+    {
+      "id": "qualidade-de-software",
+      "label": "Qualidade de software",
+      "careers": [
+        {
+          "id": "analise-de-testes-de-software",
+          "label": "Análise de Testes de Software (QA)",
+          "description": "Planeja cenários de teste, verifica o comportamento do software e registra defeitos com clareza.",
+          "aliases": ["QA", "quality assurance", "tester", "analista de testes", "software tester", "teste manual"]
+        },
+        {
+          "id": "automacao-de-testes",
+          "label": "Automação de Testes",
+          "description": "Cria testes reproduzíveis que executam automaticamente para detectar regressões no software.",
+          "aliases": ["QA automation", "test automation", "analista de automação de testes", "testes automatizados", "SDET"]
+        },
+        {
+          "id": "testes-de-desempenho",
+          "label": "Testes de Desempenho",
+          "description": "Mede o tempo de resposta e a capacidade de um sistema sob diferentes cargas.",
+          "aliases": ["performance testing", "teste de carga", "teste de estresse", "performance tester"]
+        }
+      ]
+    },
+    {
+      "id": "dados-e-bancos-de-dados",
+      "label": "Dados e bancos de dados",
+      "careers": [
+        {
+          "id": "analise-de-dados",
+          "label": "Análise de Dados",
+          "description": "Organiza e interpreta dados para responder perguntas e comunicar resultados.",
+          "aliases": ["data analyst", "analista de dados", "análise exploratória", "analytics"]
+        },
+        {
+          "id": "inteligencia-de-negocios",
+          "label": "Inteligência de Negócios (BI)",
+          "description": "Constrói indicadores e painéis que ajudam equipes a acompanhar resultados e tomar decisões.",
+          "aliases": ["BI", "business intelligence", "analista de BI", "BI analyst", "dashboards"]
+        },
+        {
+          "id": "engenharia-de-dados",
+          "label": "Engenharia de Dados",
+          "description": "Cria fluxos que coletam, transformam e disponibilizam dados para outras equipes.",
+          "aliases": ["data engineer", "engenheiro de dados", "engenheira de dados", "pipeline de dados", "ETL"]
+        },
+        {
+          "id": "ciencia-de-dados",
+          "label": "Ciência de Dados",
+          "description": "Usa estatística e modelos para investigar padrões, testar hipóteses e avaliar previsões.",
+          "aliases": ["data scientist", "cientista de dados", "modelagem estatística", "data science"]
+        },
+        {
+          "id": "engenharia-analitica",
+          "label": "Engenharia Analítica (Analytics Engineering)",
+          "description": "Transforma dados brutos em tabelas documentadas e confiáveis para análise.",
+          "aliases": ["analytics engineer", "engenheiro analítico", "engenheira analítica", "modelagem de dados", "dbt"]
+        },
+        {
+          "id": "governanca-e-qualidade-de-dados",
+          "label": "Governança e Qualidade de Dados",
+          "description": "Define regras, responsabilidades e verificações para que os dados sejam confiáveis e bem utilizados.",
+          "aliases": ["data governance", "data quality", "data steward", "analista de qualidade de dados", "governança de dados"]
+        },
+        {
+          "id": "administracao-de-bancos-de-dados",
+          "label": "Administração de Bancos de Dados (DBA)",
+          "description": "Mantém bancos de dados disponíveis, rápidos e recuperáveis em caso de falha.",
+          "aliases": ["DBA", "database administrator", "administrador de banco de dados", "administradora de banco de dados"]
+        }
+      ]
+    },
+    {
+      "id": "inteligencia-artificial",
+      "label": "Inteligência artificial",
+      "careers": [
+        {
+          "id": "engenharia-de-machine-learning",
+          "label": "Engenharia de Machine Learning",
+          "description": "Desenvolve, avalia e integra modelos de aprendizado de máquina a aplicações.",
+          "aliases": ["machine learning engineer", "ML engineer", "engenharia de aprendizado de máquina", "engenheiro de ML", "engenheira de ML"]
+        },
+        {
+          "id": "desenvolvimento-de-solucoes-com-ia-generativa",
+          "label": "Desenvolvimento de Soluções com IA Generativa",
+          "description": "Integra modelos generativos a produtos e avalia a qualidade das respostas em tarefas reais.",
+          "aliases": ["genai", "IA generativa", "generative AI", "LLM", "AI engineer", "engenharia de IA"]
+        },
+        {
+          "id": "operacao-de-modelos-de-ia",
+          "label": "Operação de Modelos de IA (MLOps)",
+          "description": "Automatiza a publicação, o monitoramento e a atualização de modelos de aprendizado de máquina.",
+          "aliases": ["MLOps", "ML operations", "engenharia de MLOps", "MLOps engineer"]
+        },
+        {
+          "id": "visao-computacional",
+          "label": "Visão Computacional",
+          "description": "Desenvolve sistemas que extraem informações de imagens e vídeos.",
+          "aliases": ["computer vision", "processamento de imagens", "computer vision engineer"]
+        },
+        {
+          "id": "avaliacao-e-governanca-de-ia",
+          "label": "Avaliação e Governança de IA",
+          "description": "Define critérios para avaliar modelos de IA e acompanha riscos e práticas de uso responsável.",
+          "aliases": ["AI governance", "AI evaluation", "IA responsável", "responsible AI", "avaliador de IA", "avaliadora de IA"]
+        }
+      ]
+    },
+    {
+      "id": "nuvem-e-confiabilidade",
+      "label": "Nuvem e confiabilidade",
+      "careers": [
+        {
+          "id": "engenharia-de-nuvem",
+          "label": "Engenharia de Nuvem",
+          "description": "Configura e mantém serviços em nuvem para executar aplicações com segurança e disponibilidade.",
+          "aliases": ["cloud engineer", "engenheiro de nuvem", "engenheira de nuvem", "cloud computing"]
+        },
+        {
+          "id": "engenharia-devops",
+          "label": "Engenharia DevOps",
+          "description": "Automatiza a entrega de software e conecta o trabalho de desenvolvimento e operações.",
+          "aliases": ["DevOps", "DevOps engineer", "engenheiro DevOps", "engenheira DevOps", "CI/CD"]
+        },
+        {
+          "id": "engenharia-de-confiabilidade",
+          "label": "Engenharia de Confiabilidade (SRE)",
+          "description": "Mede a confiabilidade de sistemas e melhora a prevenção e a recuperação de falhas.",
+          "aliases": ["SRE", "site reliability engineer", "engenharia de confiabilidade de sites", "observabilidade"]
+        },
+        {
+          "id": "engenharia-de-plataforma",
+          "label": "Engenharia de Plataforma",
+          "description": "Constrói ferramentas e ambientes internos que facilitam o desenvolvimento e a operação de aplicações.",
+          "aliases": ["platform engineer", "platform engineering", "engenheiro de plataforma", "engenheira de plataforma"]
+        },
+        {
+          "id": "gestao-de-custos-de-nuvem",
+          "label": "Gestão de Custos de Nuvem (FinOps)",
+          "description": "Acompanha gastos de serviços em nuvem e ajuda equipes a usar recursos com eficiência.",
+          "aliases": ["FinOps", "cloud cost management", "analista FinOps", "otimização de custos de nuvem"]
+        },
+        {
+          "id": "arquitetura-de-nuvem",
+          "label": "Arquitetura de Nuvem",
+          "description": "Desenha a estrutura de soluções em nuvem com atenção a custo, segurança e continuidade.",
+          "aliases": ["cloud architect", "arquiteto de nuvem", "arquiteta de nuvem", "cloud architecture"]
+        }
+      ]
+    },
+    {
+      "id": "suporte-infraestrutura-e-redes",
+      "label": "Suporte, infraestrutura e redes",
+      "careers": [
+        {
+          "id": "suporte-tecnico-de-ti",
+          "label": "Suporte Técnico de TI (Service Desk)",
+          "description": "Ajuda pessoas a resolver problemas de tecnologia e registra os chamados atendidos.",
+          "aliases": ["service desk", "help desk", "suporte de TI", "analista de suporte", "IT support"]
+        },
+        {
+          "id": "suporte-a-aplicacoes",
+          "label": "Suporte a Aplicações",
+          "description": "Investiga falhas em aplicações em uso e orienta usuários e equipes na resolução dos chamados.",
+          "aliases": ["application support", "analista de suporte a sistemas", "suporte de aplicações", "sustentação de sistemas"]
+        },
+        {
+          "id": "administracao-de-sistemas",
+          "label": "Administração de Sistemas",
+          "description": "Mantém servidores e sistemas operacionais atualizados, disponíveis e bem configurados.",
+          "aliases": ["sysadmin", "system administrator", "administrador de sistemas", "administradora de sistemas"]
+        },
+        {
+          "id": "administracao-de-redes",
+          "label": "Administração de Redes",
+          "description": "Configura e mantém redes para que dispositivos e serviços se comuniquem com estabilidade.",
+          "aliases": ["network administrator", "administrador de redes", "administradora de redes", "redes de computadores"]
+        },
+        {
+          "id": "operacoes-de-redes",
+          "label": "Operações de Redes (NOC)",
+          "description": "Monitora redes e conecta os alertas às equipes responsáveis pela recuperação dos serviços.",
+          "aliases": ["NOC", "network operations center", "analista NOC", "monitoramento de redes"]
+        },
+        {
+          "id": "telecomunicacoes",
+          "label": "Telecomunicações",
+          "description": "Planeja ou mantém infraestrutura para transmitir voz, vídeo e dados entre diferentes locais.",
+          "aliases": ["telecom", "telecommunications", "técnico de telecomunicações", "técnica de telecomunicações", "redes de comunicação"]
+        }
+      ]
+    },
+    {
+      "id": "ciberseguranca-e-privacidade",
+      "label": "Cibersegurança e privacidade",
+      "careers": [
+        {
+          "id": "monitoramento-e-defesa-cibernetica",
+          "label": "Monitoramento e Defesa Cibernética (SOC)",
+          "description": "Analisa alertas e registros para identificar ameaças e encaminhar ocorrências de segurança.",
+          "aliases": ["SOC", "security operations center", "analista SOC", "blue team", "cyber defense", "analista de cibersegurança"]
+        },
+        {
+          "id": "resposta-a-incidentes",
+          "label": "Resposta a Incidentes",
+          "description": "Coordena a contenção, a recuperação e o registro de ocorrências que afetam a segurança de sistemas.",
+          "aliases": ["incident response", "CSIRT", "CERT", "respondedor de incidentes", "respondedora de incidentes"]
+        },
+        {
+          "id": "gestao-de-identidades-e-acessos",
+          "label": "Gestão de Identidades e Acessos (IAM)",
+          "description": "Administra identidades e permissões para que cada pessoa acesse os recursos de que precisa.",
+          "aliases": ["IAM", "identity and access management", "gestão de acesso", "analista de IAM", "controle de acesso"]
+        },
+        {
+          "id": "seguranca-de-aplicacoes",
+          "label": "Segurança de Aplicações (AppSec)",
+          "description": "Ajuda a equipe a identificar e corrigir riscos de segurança ao longo do desenvolvimento do software.",
+          "aliases": ["AppSec", "application security", "segurança de software", "desenvolvimento seguro"]
+        },
+        {
+          "id": "seguranca-em-nuvem",
+          "label": "Segurança em Nuvem",
+          "description": "Configura e acompanha controles que protegem dados e aplicações hospedados em nuvem.",
+          "aliases": ["cloud security", "cloud security engineer", "segurança cloud", "segurança de nuvem"]
+        },
+        {
+          "id": "governanca-riscos-e-conformidade",
+          "label": "Governança, Riscos e Conformidade (GRC)",
+          "description": "Organiza políticas, avaliações de risco e evidências de conformidade em tecnologia e segurança.",
+          "aliases": ["GRC", "governance risk and compliance", "analista GRC", "compliance de TI", "risco de TI"]
+        },
+        {
+          "id": "privacidade-e-protecao-de-dados",
+          "label": "Privacidade e Proteção de Dados",
+          "description": "Ajuda a mapear o uso de dados pessoais e a aplicar medidas para protegê-los.",
+          "aliases": ["data privacy", "data protection", "LGPD", "analista de privacidade", "DPO"]
+        },
+        {
+          "id": "pericia-digital",
+          "label": "Perícia Digital",
+          "description": "Preserva e examina evidências digitais para esclarecer ocorrências e documentar achados.",
+          "aliases": ["digital forensics", "forense digital", "perícia computacional", "perito digital", "perita digital"]
+        },
+        {
+          "id": "testes-de-seguranca-autorizados",
+          "label": "Testes de Segurança Autorizados (Pentest)",
+          "description": "Avalia controles de segurança em ambientes autorizados e documenta os riscos e as correções recomendadas.",
+          "aliases": ["pentest", "penetration testing", "pentester", "testes de intrusão", "hacking ético"]
+        }
+      ]
+    },
+    {
+      "id": "design-e-experiencia-digital",
+      "label": "Design e experiência digital",
+      "careers": [
+        {
+          "id": "design-de-produto-digital",
+          "label": "Design de Produto Digital (UX/UI)",
+          "description": "Projeta e testa interfaces e fluxos para tornar produtos digitais claros e fáceis de usar.",
+          "aliases": ["UX", "UI", "UX/UI", "UX designer", "UI designer", "product designer", "designer de interfaces"]
+        },
+        {
+          "id": "pesquisa-com-usuarios",
+          "label": "Pesquisa com Usuários (UX Research)",
+          "description": "Investiga necessidades e dificuldades de quem usa um produto e comunica os achados à equipe.",
+          "aliases": ["UX research", "user research", "UX researcher", "pesquisa de UX", "pesquisa de experiência do usuário"]
+        },
+        {
+          "id": "design-de-servicos-digitais",
+          "label": "Design de Serviços Digitais",
+          "description": "Mapeia jornadas e melhora a experiência de interação com um serviço online.",
+          "aliases": ["service design", "service designer", "design de serviços", "jornada do usuário"]
+        },
+        {
+          "id": "redacao-para-interfaces",
+          "label": "Redação para Interfaces (UX Writing)",
+          "description": "Escreve rótulos, instruções e mensagens que ajudam as pessoas a usar uma interface.",
+          "aliases": ["UX writing", "UX writer", "content design", "content designer", "microcopy", "redação UX"]
+        },
+        {
+          "id": "acessibilidade-digital",
+          "label": "Acessibilidade Digital",
+          "description": "Identifica barreiras de acesso e recomenda melhorias para que mais pessoas possam usar produtos digitais.",
+          "aliases": ["digital accessibility", "acessibilidade web", "especialista em acessibilidade", "teste de acessibilidade", "a11y", "WCAG"]
+        }
+      ]
+    },
+    {
+      "id": "produto-negocios-e-entrega",
+      "label": "Produto, negócios e entrega",
+      "careers": [
+        {
+          "id": "analise-de-produto-digital",
+          "label": "Análise de Produto Digital",
+          "description": "Investiga como um produto é usado e acompanha métricas para apontar oportunidades de melhoria.",
+          "aliases": ["product analyst", "product analytics", "analista de produto", "análise de produto"]
+        },
+        {
+          "id": "gestao-de-produto-digital",
+          "label": "Gestão de Produto Digital (Product Manager)",
+          "description": "Define quais problemas um produto deve resolver e orienta a equipe na priorização do trabalho.",
+          "aliases": ["product manager", "PM", "gerente de produto", "product management", "gestão de produto"]
+        },
+        {
+          "id": "product-owner",
+          "label": "Product Owner",
+          "description": "Organiza e prioriza o que a equipe deve entregar para atender aos objetivos do produto.",
+          "aliases": ["PO", "dono do produto", "dona do produto", "product ownership", "backlog"]
+        },
+        {
+          "id": "analise-de-negocios-e-requisitos-de-software",
+          "label": "Análise de Negócios e Requisitos de Software",
+          "description": "Investiga necessidades de negócio e documenta requisitos que orientam o desenvolvimento do software.",
+          "aliases": ["business analyst", "analista de negócios", "analista de requisitos", "requirements analyst", "levantamento de requisitos"]
+        },
+        {
+          "id": "gestao-de-projetos-de-ti",
+          "label": "Gestão de Projetos de TI",
+          "description": "Planeja entregas, acompanha riscos e organiza a comunicação durante um projeto de tecnologia.",
+          "aliases": ["IT project manager", "gerência de projetos", "gerente de projetos de TI", "gestão de projetos de tecnologia"]
+        },
+        {
+          "id": "facilitacao-agil",
+          "label": "Facilitação Ágil (Scrum Master)",
+          "description": "Facilita a colaboração da equipe e ajuda a remover impedimentos à entrega.",
+          "aliases": ["scrum master", "agile coach", "agile facilitator", "facilitador ágil", "facilitadora ágil"]
+        }
+      ]
+    },
+    {
+      "id": "sistemas-corporativos-e-servicos",
+      "label": "Sistemas corporativos e serviços",
+      "careers": [
+        {
+          "id": "implantacao-de-sistemas-de-gestao",
+          "label": "Implantação de Sistemas de Gestão (ERP)",
+          "description": "Adapta sistemas de gestão a processos da organização e apoia sua adoção pelas equipes.",
+          "aliases": ["ERP", "consultor ERP", "consultora ERP", "analista de implantação ERP", "SAP"]
+        },
+        {
+          "id": "implantacao-de-plataformas-de-relacionamento-com-clientes",
+          "label": "Implantação de Plataformas de Relacionamento com Clientes (CRM)",
+          "description": "Configura plataformas de relacionamento com clientes para apoiar vendas e atendimento.",
+          "aliases": ["CRM", "consultor CRM", "consultora CRM", "analista de CRM", "Salesforce", "implantação de CRM"]
+        },
+        {
+          "id": "automacao-de-processos",
+          "label": "Automação de Processos (RPA e low-code)",
+          "description": "Configura fluxos e automações para reduzir tarefas manuais e repetitivas.",
+          "aliases": ["RPA", "robotic process automation", "low-code", "no-code", "analista RPA", "automação de processos"]
+        },
+        {
+          "id": "gestao-de-servicos-de-ti",
+          "label": "Gestão de Serviços de TI (ITSM)",
+          "description": "Organiza processos de atendimento, mudanças e incidentes para entregar serviços de TI confiáveis.",
+          "aliases": ["ITSM", "IT service management", "ITIL", "analista ITSM", "gestão de serviços de tecnologia"]
+        },
+        {
+          "id": "pre-vendas-tecnicas-de-software",
+          "label": "Pré-vendas Técnicas de Software",
+          "description": "Traduz necessidades de clientes em propostas técnicas e demonstra como um software pode atendê-las.",
+          "aliases": ["pre-sales", "sales engineer", "engenharia de vendas", "pré-vendas de TI", "especialista de soluções"]
+        },
+        {
+          "id": "documentacao-tecnica-de-software",
+          "label": "Documentação Técnica de Software",
+          "description": "Produz guias e referências para explicar como instalar, integrar, operar ou usar um software.",
+          "aliases": ["technical writer", "technical writing", "redator técnico", "redatora técnica", "documentação de APIs", "docs"]
+        }
+      ]
+    },
+    {
+      "id": "hardware-conectividade-e-robotica",
+      "label": "Hardware, conectividade e robótica",
+      "careers": [
+        {
+          "id": "desenvolvimento-de-firmware-e-sistemas-embarcados",
+          "label": "Desenvolvimento de Firmware e Sistemas Embarcados",
+          "description": "Programa software que opera diretamente em dispositivos com recursos e funções específicas.",
+          "aliases": ["firmware", "embedded systems", "embedded developer", "sistemas embarcados", "desenvolvedor de firmware", "desenvolvedora de firmware"]
+        },
+        {
+          "id": "desenvolvimento-de-solucoes-iot",
+          "label": "Desenvolvimento de Soluções IoT",
+          "description": "Integra sensores, dispositivos e serviços para coletar e usar informações do mundo físico.",
+          "aliases": ["IoT", "internet das coisas", "internet of things", "IoT developer", "soluções conectadas"]
+        },
+        {
+          "id": "engenharia-de-hardware",
+          "label": "Engenharia de Hardware",
+          "description": "Projeta e testa componentes eletrônicos e equipamentos computacionais.",
+          "aliases": ["hardware engineer", "engenheiro de hardware", "engenheira de hardware", "hardware eletrônico"]
+        },
+        {
+          "id": "automacao-industrial",
+          "label": "Automação Industrial",
+          "description": "Integra sensores, controladores e sistemas para monitorar e automatizar processos de produção.",
+          "aliases": ["industrial automation", "automação de fábrica", "CLP", "PLC", "mecatrônica"]
+        },
+        {
+          "id": "robotica",
+          "label": "Robótica",
+          "description": "Desenvolve ou integra componentes que permitem a robôs perceber, mover-se e executar tarefas.",
+          "aliases": ["robotics", "robotics engineer", "engenharia robótica", "engenharia de robôs"]
+        }
+      ]
+    },
+    {
+      "id": "jogos-e-tecnologia-aplicada",
+      "label": "Jogos e tecnologia aplicada",
+      "careers": [
+        {
+          "id": "desenvolvimento-de-jogos",
+          "label": "Desenvolvimento de Jogos",
+          "description": "Implementa regras, interações e sistemas que dão funcionamento a um jogo digital.",
+          "aliases": ["game development", "game developer", "programação de jogos", "desenvolvedor de jogos", "desenvolvedora de jogos"]
+        },
+        {
+          "id": "design-de-jogos",
+          "label": "Design de Jogos (Game Design)",
+          "description": "Cria e testa mecânicas, desafios e experiências que orientam como um jogo é jogado.",
+          "aliases": ["game design", "game designer", "level design", "projeto de jogos"]
+        },
+        {
+          "id": "arte-tecnica-para-jogos",
+          "label": "Arte Técnica para Jogos",
+          "description": "Conecta arte e programação para integrar e otimizar recursos visuais de jogos.",
+          "aliases": ["technical art", "technical artist", "tech art", "artista técnico", "artista técnica"]
+        },
+        {
+          "id": "desenvolvimento-em-realidade-aumentada-e-virtual",
+          "label": "Desenvolvimento em Realidade Aumentada e Virtual",
+          "description": "Cria experiências interativas com elementos virtuais sobrepostos ao mundo físico ou em ambientes imersivos.",
+          "aliases": ["AR", "VR", "XR", "realidade aumentada", "realidade virtual", "XR developer"]
+        },
+        {
+          "id": "geoprocessamento",
+          "label": "Geoprocessamento (SIG/GIS)",
+          "description": "Trata dados geográficos e cria mapas para analisar informações relacionadas à localização.",
+          "aliases": ["SIG", "GIS", "geoprocessamento", "geotecnologias", "analista GIS", "análise espacial"]
+        },
+        {
+          "id": "informatica-em-saude",
+          "label": "Informática em Saúde",
+          "description": "Aplica tecnologia e dados a sistemas de informação usados por serviços de saúde.",
+          "aliases": ["health informatics", "informática médica", "saúde digital", "sistemas de informação em saúde", "health IT"]
+        },
+        {
+          "id": "desenvolvimento-blockchain",
+          "label": "Desenvolvimento Blockchain",
+          "description": "Desenvolve soluções com registros distribuídos e avalia quando essa tecnologia é adequada.",
+          "aliases": ["blockchain", "blockchain developer", "web3", "registros distribuídos", "smart contracts"]
+        }
+      ]
+    }
+  ]
+}

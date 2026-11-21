@@ -1,0 +1,3 @@
+# Fase 3 — Gemini e integração ponta a ponta
+
+Integre Gemini com SDK `google-genai`, usando `GEMINI_API_KEY` e `GEMINI_MODEL` via ambiente. Antes, confirme na documentação oficial e na conta do usuário qual modelo tem cota gratuita; se não puder verificar, solicite o nome do modelo ao usuário. Gere questionário e diagnóstico em JSON validado, com timeout, 429, retries limitados, avisos e erros recuperáveis sem modo demonstração ou fallback sem IA. Preservar entradas para nova tentativa explícita. Integre front-end com API e escreva testes com mocks. Não imprima chave ou dados pessoais. Rode testes e pare.

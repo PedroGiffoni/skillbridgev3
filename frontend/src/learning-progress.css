@@ -1,0 +1,66 @@
+.mastery-panel { border-top: 1px solid var(--border); margin-top: 1.25rem; padding-top: 1rem; min-width: 0; overflow-wrap: anywhere; }
+.mastery-panel h4, .mastery-panel h5, .mastery-panel h6 { font-weight: 700; margin-bottom: .5rem; }
+.mastery-panel button { min-height: 44px; max-width: 100%; }
+.mastery-panel button:disabled { cursor: not-allowed; opacity: .65; }
+.mastery-panel :where(h5, legend)[tabindex]:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+.mastery-question-count { color: var(--accent-ink); }
+.mastery-generate { margin-block: .75rem; }
+.mastery-generate .checkbox { margin-block: .625rem; }
+.mastery-result { background: var(--soft); border: 1px solid var(--border); border-radius: .8rem; padding: 1rem; margin-block: .75rem; }
+.mastery-competencies, .mastery-review-list { list-style: none; margin: .5rem 0 .75rem; padding: 0; }
+.mastery-competencies li { display: flex; justify-content: space-between; align-items: start; gap: .375rem 1rem; flex-wrap: wrap; padding-block: .5rem; }
+.mastery-competencies li + li { border-top: 1px solid var(--border); }
+.mastery-review-list { display: flex; gap: .5rem; flex-wrap: wrap; }
+.learning-dashboard { min-width: 0; overflow-wrap: anywhere; }
+.learning-dashboard > h1 { margin-block: 0 .8rem; }
+.learning-dashboard h2 { margin-bottom: .5rem; }
+.learning-dashboard h3 { margin: .375rem 0; }
+.learning-dashboard button { min-height: 44px; max-width: 100%; }
+.learning-dashboard :where(select, input, summary):focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.learning-dashboard select, .learning-dashboard input[type=number] {
+  max-width: 100%; min-height: 44px; padding: .5rem .65rem; background: var(--surface);
+  color: var(--ink); border: 1px solid var(--border); border-radius: .6rem; font: inherit;
+}
+.learning-panels { display: grid; gap: 1rem; }
+.learning-course-select { margin-bottom: .75rem; }
+.learning-course-select select { width: min(28rem, 100%); }
+.learning-resume { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: .75rem; }
+.learning-resume p { margin: 0; }
+.learning-views { display: flex; flex-wrap: wrap; gap: .5rem; margin-block: .875rem; }
+.learning-views [aria-pressed=true] { background: var(--soft); border-color: var(--accent); }
+.learning-kpis { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .5rem; margin: 0 0 .75rem; }
+.learning-dashboard .result-card { min-width: 0; padding: clamp(.75rem, 2vw, 1rem); }
+.learning-kpis dt { color: var(--muted); font-size: .825rem; }
+.learning-kpis dd { margin: .125rem 0 0; color: var(--accent-ink); font-size: clamp(1.15rem, 4vw, 1.65rem); font-weight: 700; }
+.learning-effort { margin-bottom: .75rem; }
+.learning-achievements ul, .learning-matrix, .learning-weeks, .learning-modules { list-style: none; padding: 0; margin: 0; }
+.learning-achievements ul { display: flex; flex-wrap: wrap; gap: .5rem; }
+.learning-achievements li, .learning-state { padding: .2rem .6rem; background: var(--soft); color: var(--accent-ink); border-radius: .5rem; font-size: .8rem; }
+.learning-state { display: inline-block; max-width: 100%; }
+.learning-chart-bars { list-style: none; padding: 0; margin: .75rem 0 0; gap: .25rem; display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); }
+.learning-chart-bars li { min-width: 0; display: grid; justify-items: center; gap: .25rem; color: var(--muted); font-size: .75rem; }
+.learning-chart-track { width: 100%; height: clamp(4rem, 16vw, 7rem); display: flex; align-items: flex-end; border-radius: .25rem; background: var(--soft); overflow: hidden; }
+.learning-chart-track span { width: 100%; background: var(--accent); border-radius: .25rem .25rem 0 0; }
+.learning-chart-text, .learning-review { margin: .45rem 0 0; }
+.learning-chart-text summary, .learning-review summary { min-height: 44px; display: list-item; padding-block: .65rem; cursor: pointer; }
+.learning-chart-text ol, .learning-review ul { margin: 0; padding-inline-start: 1.5rem; }
+.learning-matrix li > div, .learning-week-top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .375rem .75rem; }
+.learning-matrix li { padding-block: .5rem; }
+.learning-matrix li + li { border-top: 1px solid var(--border); }
+.learning-matrix li > span { color: var(--muted); }
+.learning-filters, .learning-time-controls, .learning-time-form { display: grid; align-items: end; gap: .25rem .6rem; }
+.learning-time-form input { width: 100%; }
+.learning-filters { margin-bottom: .75rem; }
+.learning-time-form button { justify-self: start; margin-top: .4rem; }
+.learning-weeks, .learning-modules { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); gap: .625rem; }
+.learning-weeks p, .learning-modules p { margin-bottom: .375rem; }
+.learning-weeks progress { display: block; width: 100%; accent-color: var(--accent); margin-block: .5rem; }
+
+@media (min-width: 42rem) {
+  .learning-kpis { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .learning-filters { grid-template-columns: auto minmax(8rem, 12rem) auto minmax(8rem, 12rem); align-items: center; }
+  .learning-time-controls { grid-template-columns: auto minmax(6rem, 10rem) minmax(0, 1fr); align-items: center; }
+  .learning-time-form { grid-template-columns: auto minmax(4rem, 8rem) auto; align-items: center; }
+  .learning-time-form button { margin-top: 0; }
+}
+.learning-replan summary { min-height: 44px; display: list-item; padding-block: .55rem; cursor: pointer; font-weight: 650; }

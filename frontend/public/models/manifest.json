@@ -1,0 +1,26 @@
+[
+  {
+    "file": "profissional-blazer.glb",
+    "bytes": 858008,
+    "meshes": 85,
+    "triangles": 50534,
+    "animations": [
+      "Acenar",
+      "Respirar",
+      "Celebrar",
+      "Caminhar"
+    ]
+  },
+  {
+    "file": "profissional-camisa.glb",
+    "bytes": 884580,
+    "meshes": 78,
+    "triangles": 49102,
+    "animations": [
+      "Acenar",
+      "Respirar",
+      "Celebrar",
+      "Caminhar"
+    ]
+  }
+]

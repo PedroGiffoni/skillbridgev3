@@ -1,0 +1,145 @@
+.career-picker {
+  margin-block-start: 20px;
+  min-width: 0;
+}
+
+.career-picker__label {
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 650;
+  margin: 0 0 7px;
+}
+
+.career-picker__label span {
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.career-picker__trigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  min-height: 48px;
+  padding: 11px 13px;
+  border: 1px solid var(--input-border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 14px;
+  text-align: left;
+}
+
+.career-picker__trigger svg {
+  color: var(--accent-ink);
+  flex: none;
+}
+
+.career-picker__trigger:hover:not(:disabled),
+.career-picker__trigger[aria-expanded="true"] {
+  border-color: var(--accent);
+}
+
+.career-picker__panel {
+  display: grid;
+  gap: 12px;
+  margin-top: 8px;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--subtle);
+}
+
+.career-picker .career-picker__panel label {
+  margin: 0 0 -6px;
+}
+
+.career-picker__search {
+  position: relative;
+}
+
+.career-picker__search svg {
+  position: absolute;
+  inset-inline-start: 13px;
+  inset-block-start: 50%;
+  transform: translateY(-50%);
+  color: var(--muted);
+  pointer-events: none;
+}
+
+.career-picker .career-picker__search input[type="search"] {
+  font-size: 16px;
+  padding-inline-start: 39px;
+}
+
+.career-picker__families {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.career-picker__families button,
+.career-picker__results button {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--ink);
+  text-align: left;
+}
+
+.career-picker__families button {
+  border-radius: 7px;
+  min-height: 44px;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.career-picker__families button:hover,
+.career-picker__results button:hover {
+  background: var(--soft);
+}
+
+.career-picker__families button[aria-pressed="true"],
+.career-picker__results button[aria-pressed="true"] {
+  border-color: var(--accent);
+  background: var(--soft);
+}
+
+.career-picker__status {
+  margin: 0;
+  font-size: 12px;
+}
+
+.career-picker__results {
+  display: grid;
+  gap: 7px;
+  max-height: min(45dvh, 24rem);
+  overflow-y: auto;
+  list-style: none;
+  margin: 0;
+  padding: 4px;
+}
+
+.career-picker__results button {
+  display: grid;
+  gap: 3px;
+  width: 100%;
+  min-height: 48px;
+  padding: 9px 11px;
+  border-radius: 8px;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.career-picker__results button:focus-visible {
+  outline-offset: 0;
+}
+
+.career-picker__results button span {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.career-picker__results button .career-picker__family-label {
+  color: var(--accent-ink);
+}
